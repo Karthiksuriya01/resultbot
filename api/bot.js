@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 const { parse } = require('node-html-parser');
 
 // Replace with your Telegram bot token
-const BOT_TOKEN = process.env.BOT_TOKEN; // Use environment variable on Vercel
+const BOT_TOKEN = "7574886485:AAGGGLfeOYHfsuXJEiKhjdGUVFQ3l41S4O4";
 
 const bot = new Telegraf(BOT_TOKEN);
 
